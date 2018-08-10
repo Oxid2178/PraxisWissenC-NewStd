@@ -13,108 +13,159 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Lambdas">
+      <UniqueIdentifier>{aff5bb89-fb83-49ce-8b3c-0dcd192c1f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lambdas">
+      <UniqueIdentifier>{29a9c254-8e54-4124-8314-79d11d85df04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kap3Templates">
+      <UniqueIdentifier>{82e2d29a-b82a-4ef5-8784-df7ed15dfa64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kap3Templates">
+      <UniqueIdentifier>{92566d4e-66d4-4078-b670-d7e17d72bc56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kap2BedingInit">
+      <UniqueIdentifier>{1871e2d0-8ba9-4846-b00c-61d19cf1d0f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kap2BedingInit">
+      <UniqueIdentifier>{27d35082-88a9-4ce9-a444-a311ba21ee4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kap4SharedPointer">
+      <UniqueIdentifier>{d72df7c7-2700-4923-85fc-75d6deba4664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Kap4SharedPointer">
+      <UniqueIdentifier>{125d910b-844c-4604-b660-9f2f121df979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DerC++ProgKap32SmartPointer">
+      <UniqueIdentifier>{99379e12-c0d3-490d-9b3d-0a2db0621dd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DerC++ProgKap32SmartPointer">
+      <UniqueIdentifier>{77d55adb-1364-43b1-9f0e-6da61445b5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DerC++ProgKap22VererbungInterface">
+      <UniqueIdentifier>{e1680aed-d09b-41d0-bbf0-fbe4757c919b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DerC++ProgKap22VererbungInterface">
+      <UniqueIdentifier>{91a21e4e-62cd-473e-a4b5-f6da839a6510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CleanC++17InterfacesAndMocks">
+      <UniqueIdentifier>{2d57a7c6-ca29-4e9c-9428-8760c00a1787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CleanC++17InterfacesAndMocks">
+      <UniqueIdentifier>{1cabdbc3-818d-4820-926d-46c9a76ccff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{cad83b86-766e-4809-96de-746d2c67e413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{d1aab776-eec0-4f19-8538-a8dbe9001c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{35968905-a665-49f4-be94-8a35c0615267}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BinaryTreeNode.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CurrConvServiceMock.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Hund.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="HundeNutzer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ICurrencyConverter.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IHund.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Kap3Templates.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Kap4Bibliothek.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Lambdas.h">
+      <Filter>Header Files\Lambdas</Filter>
     </ClInclude>
     <ClInclude Include="Kapitel2.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Kap2BedingInit</Filter>
     </ClInclude>
-    <ClInclude Include="Katze.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Kap3Templates.h">
+      <Filter>Header Files\Kap3Templates</Filter>
     </ClInclude>
-    <ClInclude Include="Lambdas.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Lebewesen.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Person.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="RealtimeCurrConvService.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Kap4Bibliothek.h">
+      <Filter>Header Files\Kap4SharedPointer</Filter>
     </ClInclude>
     <ClInclude Include="Ressource.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\DerC++ProgKap32SmartPointer</Filter>
+    </ClInclude>
+    <ClInclude Include="Hund.h">
+      <Filter>Header Files\DerC++ProgKap22VererbungInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="HundeNutzer.h">
+      <Filter>Header Files\DerC++ProgKap22VererbungInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="IHund.h">
+      <Filter>Header Files\DerC++ProgKap22VererbungInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Katze.h">
+      <Filter>Header Files\DerC++ProgKap22VererbungInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="Lebewesen.h">
+      <Filter>Header Files\DerC++ProgKap22VererbungInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeNode.h">
+      <Filter>Header Files\Lambdas</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrConvServiceMock.h">
+      <Filter>Header Files\CleanC++17InterfacesAndMocks</Filter>
+    </ClInclude>
+    <ClInclude Include="ICurrencyConverter.h">
+      <Filter>Header Files\CleanC++17InterfacesAndMocks</Filter>
+    </ClInclude>
+    <ClInclude Include="RealtimeCurrConvService.h">
+      <Filter>Header Files\CleanC++17InterfacesAndMocks</Filter>
     </ClInclude>
     <ClInclude Include="UserOfConvService.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\CleanC++17InterfacesAndMocks</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>Header Files\DerC++ProgKap22VererbungInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\System</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="PraxisWissenC++NewStd.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BinaryTreeNode.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="CurrConvServiceMock.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Hund.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="HundeNutzer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Kap3Templates.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Kap4Bibliothek.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Lambdas.cpp">
+      <Filter>Source Files\Lambdas</Filter>
     </ClCompile>
     <ClCompile Include="Kapitel2.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Kap2BedingInit</Filter>
     </ClCompile>
-    <ClCompile Include="Katze.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Kap3Templates.cpp">
+      <Filter>Source Files\Kap3Templates</Filter>
     </ClCompile>
-    <ClCompile Include="Lambdas.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Lebewesen.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="RealtimeCurrConvService.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Kap4Bibliothek.cpp">
+      <Filter>Source Files\Kap4SharedPointer</Filter>
     </ClCompile>
     <ClCompile Include="Ressource.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\DerC++ProgKap32SmartPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Hund.cpp">
+      <Filter>Source Files\DerC++ProgKap22VererbungInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="HundeNutzer.cpp">
+      <Filter>Source Files\DerC++ProgKap22VererbungInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Katze.cpp">
+      <Filter>Source Files\DerC++ProgKap22VererbungInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="Lebewesen.cpp">
+      <Filter>Source Files\DerC++ProgKap22VererbungInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryTreeNode.cpp">
+      <Filter>Source Files\Lambdas</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrConvServiceMock.cpp">
+      <Filter>Source Files\CleanC++17InterfacesAndMocks</Filter>
+    </ClCompile>
+    <ClCompile Include="RealtimeCurrConvService.cpp">
+      <Filter>Source Files\CleanC++17InterfacesAndMocks</Filter>
     </ClCompile>
     <ClCompile Include="UserOfConvService.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\CleanC++17InterfacesAndMocks</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="PraxisWissenC++NewStd.cpp">
+      <Filter>Source Files\Main</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
