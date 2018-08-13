@@ -64,6 +64,12 @@
     <Filter Include="Source Files\Main">
       <UniqueIdentifier>{35968905-a665-49f4-be94-8a35c0615267}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\CleanC++17SmartPointer">
+      <UniqueIdentifier>{599ff22b-22c2-4b5b-bdf1-49e7f9081699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CleanC++17SmartPointer">
+      <UniqueIdentifier>{c34e6c41-9651-4b8d-a4d2-bdff34742c86}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lambdas.h">
@@ -120,6 +126,9 @@
     <ClInclude Include="stdafx.h">
       <Filter>Header Files\System</Filter>
     </ClInclude>
+    <ClInclude Include="SmartPointer.h">
+      <Filter>Header Files\CleanC++17SmartPointer</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lambdas.cpp">
@@ -166,6 +175,9 @@
     </ClCompile>
     <ClCompile Include="PraxisWissenC++NewStd.cpp">
       <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartPointer.cpp">
+      <Filter>Source Files\CleanC++17SmartPointer</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
