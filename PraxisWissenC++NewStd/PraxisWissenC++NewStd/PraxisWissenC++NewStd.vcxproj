@@ -147,12 +147,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Account.h" />
+    <ClInclude Include="Account2.h" />
     <ClInclude Include="BinaryTreeNode.h" />
     <ClInclude Include="CurrConvServiceMock.h" />
+    <ClInclude Include="Customer.h" />
+    <ClInclude Include="CustomerImpl.h" />
     <ClInclude Include="Hund.h" />
     <ClInclude Include="HundeNutzer.h" />
     <ClInclude Include="ICurrencyConverter.h" />
     <ClInclude Include="IHund.h" />
+    <ClInclude Include="IOwner.h" />
     <ClInclude Include="Kap3Templates.h" />
     <ClInclude Include="Kap4Bibliothek.h" />
     <ClInclude Include="Kapitel2.h" />
@@ -168,8 +173,12 @@
     <ClInclude Include="UserOfConvService.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Account.cpp" />
+    <ClCompile Include="Account2.cpp" />
     <ClCompile Include="BinaryTreeNode.cpp" />
     <ClCompile Include="CurrConvServiceMock.cpp" />
+    <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="CustomerImpl.cpp" />
     <ClCompile Include="Hund.cpp" />
     <ClCompile Include="HundeNutzer.cpp" />
     <ClCompile Include="Kap3Templates.cpp" />

@@ -70,6 +70,30 @@
     <Filter Include="Source Files\CleanC++17SmartPointer">
       <UniqueIdentifier>{c34e6c41-9651-4b8d-a4d2-bdff34742c86}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\CleanC++17AvoidCyclicDependencyPrinciple">
+      <UniqueIdentifier>{0a0ab5bc-0e09-4cb2-b784-8771ff053066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CleanC++17AvoidCyclicDependencyPrinciple">
+      <UniqueIdentifier>{ab25824d-2d3d-4522-a031-152d25f47c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CleanC++17DependencyInvPrinciple">
+      <UniqueIdentifier>{3e0b905b-2783-4ac7-a9b7-b7539cc32c58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CleanC++17DependencyInvPrinciple">
+      <UniqueIdentifier>{d39f2aef-2a62-4536-927e-72967841ca2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CleanC++17DependencyInvPrinciple\Customer">
+      <UniqueIdentifier>{93d11ddd-5076-416d-ada7-33c6c4c093f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CleanC++17DependencyInvPrinciple\Account">
+      <UniqueIdentifier>{8a14adc3-b4a1-4561-be3a-778f1f949b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CleanC++17DependencyInvPrinciple\Customer">
+      <UniqueIdentifier>{7b3dcc7d-3906-4320-b2bf-ad70b4c04b7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CleanC++17DependencyInvPrinciple\Account">
+      <UniqueIdentifier>{307ab2d0-e6a3-4928-9e0a-c258fba88a99}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lambdas.h">
@@ -129,6 +153,21 @@
     <ClInclude Include="SmartPointer.h">
       <Filter>Header Files\CleanC++17SmartPointer</Filter>
     </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>Header Files\CleanC++17AvoidCyclicDependencyPrinciple</Filter>
+    </ClInclude>
+    <ClInclude Include="Customer.h">
+      <Filter>Header Files\CleanC++17AvoidCyclicDependencyPrinciple</Filter>
+    </ClInclude>
+    <ClInclude Include="Account2.h">
+      <Filter>Header Files\CleanC++17DependencyInvPrinciple\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomerImpl.h">
+      <Filter>Header Files\CleanC++17DependencyInvPrinciple\Customer</Filter>
+    </ClInclude>
+    <ClInclude Include="IOwner.h">
+      <Filter>Header Files\CleanC++17DependencyInvPrinciple\Account</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lambdas.cpp">
@@ -178,6 +217,18 @@
     </ClCompile>
     <ClCompile Include="SmartPointer.cpp">
       <Filter>Source Files\CleanC++17SmartPointer</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>Source Files\CleanC++17AvoidCyclicDependencyPrinciple</Filter>
+    </ClCompile>
+    <ClCompile Include="Customer.cpp">
+      <Filter>Source Files\CleanC++17AvoidCyclicDependencyPrinciple</Filter>
+    </ClCompile>
+    <ClCompile Include="Account2.cpp">
+      <Filter>Source Files\CleanC++17DependencyInvPrinciple\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomerImpl.cpp">
+      <Filter>Source Files\CleanC++17DependencyInvPrinciple\Customer</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
