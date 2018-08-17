@@ -148,13 +148,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Account.h" />
-    <ClInclude Include="Account2.h" />
+    <ClInclude Include="AccountImpl.h" />
     <ClInclude Include="BinaryTreeNode.h" />
     <ClInclude Include="CurrConvServiceMock.h" />
     <ClInclude Include="Customer.h" />
     <ClInclude Include="CustomerImpl.h" />
     <ClInclude Include="Hund.h" />
     <ClInclude Include="HundeNutzer.h" />
+    <ClInclude Include="IAccount.h" />
     <ClInclude Include="ICurrencyConverter.h" />
     <ClInclude Include="IHund.h" />
     <ClInclude Include="IOwner.h" />
@@ -174,7 +175,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Account.cpp" />
-    <ClCompile Include="Account2.cpp" />
+    <ClCompile Include="AccountImpl.cpp" />
     <ClCompile Include="BinaryTreeNode.cpp" />
     <ClCompile Include="CurrConvServiceMock.cpp" />
     <ClCompile Include="Customer.cpp" />

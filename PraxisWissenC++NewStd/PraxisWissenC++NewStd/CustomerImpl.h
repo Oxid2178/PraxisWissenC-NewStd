@@ -1,18 +1,18 @@
 #pragma once
 
 #include "IOwner.h"
-#include "Account2.h"
+#include "IAccount.h"
 
 class CustomerImpl : public IOwner
 {
 private:
-	AccountPtr customerAccount;
+	IAccountPtr customerAccount;
 	std::string customerName = "Alessio";
 
 public:
 	CustomerImpl();
 	~CustomerImpl();
-	void setAccount(AccountPtr account);
+	void setAccount(IAccountPtr account);
 	virtual std::string getCustomerName() const override;
 };
 

@@ -159,13 +159,16 @@
     <ClInclude Include="Customer.h">
       <Filter>Header Files\CleanC++17AvoidCyclicDependencyPrinciple</Filter>
     </ClInclude>
-    <ClInclude Include="Account2.h">
-      <Filter>Header Files\CleanC++17DependencyInvPrinciple\Account</Filter>
-    </ClInclude>
     <ClInclude Include="CustomerImpl.h">
       <Filter>Header Files\CleanC++17DependencyInvPrinciple\Customer</Filter>
     </ClInclude>
     <ClInclude Include="IOwner.h">
+      <Filter>Header Files\CleanC++17DependencyInvPrinciple\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="IAccount.h">
+      <Filter>Header Files\CleanC++17DependencyInvPrinciple\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountImpl.h">
       <Filter>Header Files\CleanC++17DependencyInvPrinciple\Account</Filter>
     </ClInclude>
   </ItemGroup>
@@ -224,11 +227,11 @@
     <ClCompile Include="Customer.cpp">
       <Filter>Source Files\CleanC++17AvoidCyclicDependencyPrinciple</Filter>
     </ClCompile>
-    <ClCompile Include="Account2.cpp">
-      <Filter>Source Files\CleanC++17DependencyInvPrinciple\Account</Filter>
-    </ClCompile>
     <ClCompile Include="CustomerImpl.cpp">
       <Filter>Source Files\CleanC++17DependencyInvPrinciple\Customer</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountImpl.cpp">
+      <Filter>Source Files\CleanC++17DependencyInvPrinciple\Account</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
