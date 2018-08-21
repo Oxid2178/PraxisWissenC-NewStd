@@ -153,6 +153,7 @@
     <ClInclude Include="CurrConvServiceMock.h" />
     <ClInclude Include="Customer.h" />
     <ClInclude Include="CustomerImpl.h" />
+    <ClInclude Include="GCDwithTemplate.h" />
     <ClInclude Include="Hund.h" />
     <ClInclude Include="HundeNutzer.h" />
     <ClInclude Include="IAccount.h" />
@@ -166,6 +167,7 @@
     <ClInclude Include="Lambdas.h" />
     <ClInclude Include="Lebewesen.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="RandomNumberGenerator.h" />
     <ClInclude Include="RealtimeCurrConvService.h" />
     <ClInclude Include="Ressource.h" />
     <ClInclude Include="SmartPointer.h" />
@@ -180,6 +182,7 @@
     <ClCompile Include="CurrConvServiceMock.cpp" />
     <ClCompile Include="Customer.cpp" />
     <ClCompile Include="CustomerImpl.cpp" />
+    <ClCompile Include="GCDwithTemplate.cpp" />
     <ClCompile Include="Hund.cpp" />
     <ClCompile Include="HundeNutzer.cpp" />
     <ClCompile Include="Kap3Templates.cpp" />
@@ -189,6 +192,7 @@
     <ClCompile Include="Lambdas.cpp" />
     <ClCompile Include="Lebewesen.cpp" />
     <ClCompile Include="PraxisWissenC++NewStd.cpp" />
+    <ClCompile Include="RandomNumberGenerator.cpp" />
     <ClCompile Include="RealtimeCurrConvService.cpp" />
     <ClCompile Include="Ressource.cpp" />
     <ClCompile Include="SmartPointer.cpp" />

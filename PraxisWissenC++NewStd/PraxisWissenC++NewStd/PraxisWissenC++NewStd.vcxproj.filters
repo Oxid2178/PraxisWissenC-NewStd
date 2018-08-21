@@ -94,6 +94,18 @@
     <Filter Include="Source Files\CleanC++17DependencyInvPrinciple\Account">
       <UniqueIdentifier>{307ab2d0-e6a3-4928-9e0a-c258fba88a99}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\CleanC++17FunctionalProgGCD">
+      <UniqueIdentifier>{8a376c5d-fbe3-4cf9-9a96-a1f4659d1205}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CleanC++17FunctionalProgGCD">
+      <UniqueIdentifier>{9aa81156-f44b-4edc-a3b0-d4eb3e232e62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CleanC++17FunctionalProgFunctor">
+      <UniqueIdentifier>{a2949717-de9c-4142-8948-d1e6dd332b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CleanC++17FunctionalProgFunctor">
+      <UniqueIdentifier>{66b7339d-6967-40ae-baa0-29669d23f558}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lambdas.h">
@@ -171,6 +183,12 @@
     <ClInclude Include="AccountImpl.h">
       <Filter>Header Files\CleanC++17DependencyInvPrinciple\Account</Filter>
     </ClInclude>
+    <ClInclude Include="GCDwithTemplate.h">
+      <Filter>Header Files\CleanC++17FunctionalProgGCD</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNumberGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lambdas.cpp">
@@ -232,6 +250,12 @@
     </ClCompile>
     <ClCompile Include="AccountImpl.cpp">
       <Filter>Source Files\CleanC++17DependencyInvPrinciple\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="GCDwithTemplate.cpp">
+      <Filter>Source Files\CleanC++17FunctionalProgGCD</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomNumberGenerator.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
