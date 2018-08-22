@@ -154,6 +154,7 @@
     <ClInclude Include="Customer.h" />
     <ClInclude Include="CustomerImpl.h" />
     <ClInclude Include="GCDwithTemplate.h" />
+    <ClInclude Include="IncreasingNumberGenerator.h" />
     <ClInclude Include="Hund.h" />
     <ClInclude Include="HundeNutzer.h" />
     <ClInclude Include="IAccount.h" />
@@ -173,6 +174,7 @@
     <ClInclude Include="SmartPointer.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="ToSquare.h" />
     <ClInclude Include="UserOfConvService.h" />
   </ItemGroup>
   <ItemGroup>
@@ -183,6 +185,7 @@
     <ClCompile Include="Customer.cpp" />
     <ClCompile Include="CustomerImpl.cpp" />
     <ClCompile Include="GCDwithTemplate.cpp" />
+    <ClCompile Include="IncreasingNumberGenerator.cpp" />
     <ClCompile Include="Hund.cpp" />
     <ClCompile Include="HundeNutzer.cpp" />
     <ClCompile Include="Kap3Templates.cpp" />
@@ -202,6 +205,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="ToSquare.cpp" />
     <ClCompile Include="UserOfConvService.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

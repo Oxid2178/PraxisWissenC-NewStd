@@ -97,14 +97,20 @@
     <Filter Include="Header Files\CleanC++17FunctionalProgGCD">
       <UniqueIdentifier>{8a376c5d-fbe3-4cf9-9a96-a1f4659d1205}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\CleanC++17FunctionalProgFunctor">
+      <UniqueIdentifier>{66b7339d-6967-40ae-baa0-29669d23f558}</UniqueIdentifier>
+    </Filter>
     <Filter Include="Source Files\CleanC++17FunctionalProgGCD">
       <UniqueIdentifier>{9aa81156-f44b-4edc-a3b0-d4eb3e232e62}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\CleanC++17FunctionalProgFunctor">
       <UniqueIdentifier>{a2949717-de9c-4142-8948-d1e6dd332b5c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\CleanC++17FunctionalProgFunctor">
-      <UniqueIdentifier>{66b7339d-6967-40ae-baa0-29669d23f558}</UniqueIdentifier>
+    <Filter Include="Header Files\CleanC++17FunctionalProgUnaryFunction">
+      <UniqueIdentifier>{568a57ef-483b-4583-b28f-9651540f23c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CleanC++17FunctionalProgUnaryFunction">
+      <UniqueIdentifier>{ca4b63f9-460d-4f5d-8b65-b1d60b8b10c7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -187,7 +193,13 @@
       <Filter>Header Files\CleanC++17FunctionalProgGCD</Filter>
     </ClInclude>
     <ClInclude Include="RandomNumberGenerator.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\CleanC++17FunctionalProgFunctor</Filter>
+    </ClInclude>
+    <ClInclude Include="ToSquare.h">
+      <Filter>Header Files\CleanC++17FunctionalProgUnaryFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="IncreasingNumberGenerator.h">
+      <Filter>Header Files\CleanC++17FunctionalProgUnaryFunction</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -255,7 +267,13 @@
       <Filter>Source Files\CleanC++17FunctionalProgGCD</Filter>
     </ClCompile>
     <ClCompile Include="RandomNumberGenerator.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\CleanC++17FunctionalProgFunctor</Filter>
+    </ClCompile>
+    <ClCompile Include="ToSquare.cpp">
+      <Filter>Source Files\CleanC++17FunctionalProgUnaryFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="IncreasingNumberGenerator.cpp">
+      <Filter>Source Files\CleanC++17FunctionalProgUnaryFunction</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
