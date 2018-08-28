@@ -112,6 +112,24 @@
     <Filter Include="Source Files\CleanC++17FunctionalProgUnaryFunction">
       <UniqueIdentifier>{ca4b63f9-460d-4f5d-8b65-b1d60b8b10c7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\CleanC++17TDD">
+      <UniqueIdentifier>{bf15df5e-5385-481d-8f04-efebaec55708}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CleanC++17TDD">
+      <UniqueIdentifier>{f7e62e4e-21ec-45b1-b98f-f5602b029a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CleanC++17TDD\Test">
+      <UniqueIdentifier>{3e8b1268-98da-4223-99b4-d39ad5739666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CleanC++17TDD\Test">
+      <UniqueIdentifier>{1095f36b-22a8-4110-aaa7-645001a0e515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CleanC++17DesignPatternDependInject">
+      <UniqueIdentifier>{ae64a062-5dcd-4d43-ad4c-723a2e109b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CleanC++17DesignPatternDependInject">
+      <UniqueIdentifier>{f6292f67-8052-4ad5-99f5-fed1f0bad251}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lambdas.h">
@@ -201,6 +219,18 @@
     <ClInclude Include="IncreasingNumberGenerator.h">
       <Filter>Header Files\CleanC++17FunctionalProgUnaryFunction</Filter>
     </ClInclude>
+    <ClInclude Include="ArabicToRomanNumeralsConverterTest.h">
+      <Filter>Header Files\CleanC++17TDD\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="ILoggingFacility.h">
+      <Filter>Header Files\CleanC++17DesignPatternDependInject</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardOutputLoggerImpl.h">
+      <Filter>Header Files\CleanC++17DesignPatternDependInject</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomerRepository.h">
+      <Filter>Header Files\CleanC++17DesignPatternDependInject</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lambdas.cpp">
@@ -274,6 +304,18 @@
     </ClCompile>
     <ClCompile Include="IncreasingNumberGenerator.cpp">
       <Filter>Source Files\CleanC++17FunctionalProgUnaryFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="ArabicToRomanNumeralsConverterTest.cpp">
+      <Filter>Source Files\CleanC++17TDD\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="ILoggingFacility.cpp">
+      <Filter>Source Files\CleanC++17DesignPatternDependInject</Filter>
+    </ClCompile>
+    <ClCompile Include="StandardOutputLoggerImpl.cpp">
+      <Filter>Source Files\CleanC++17DesignPatternDependInject</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomerRepository.cpp">
+      <Filter>Source Files\CleanC++17DesignPatternDependInject</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

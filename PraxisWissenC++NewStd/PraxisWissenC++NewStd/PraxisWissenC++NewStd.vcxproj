@@ -149,11 +149,14 @@
   <ItemGroup>
     <ClInclude Include="Account.h" />
     <ClInclude Include="AccountImpl.h" />
+    <ClInclude Include="ArabicToRomanNumeralsConverterTest.h" />
     <ClInclude Include="BinaryTreeNode.h" />
     <ClInclude Include="CurrConvServiceMock.h" />
     <ClInclude Include="Customer.h" />
     <ClInclude Include="CustomerImpl.h" />
+    <ClInclude Include="CustomerRepository.h" />
     <ClInclude Include="GCDwithTemplate.h" />
+    <ClInclude Include="ILoggingFacility.h" />
     <ClInclude Include="IncreasingNumberGenerator.h" />
     <ClInclude Include="Hund.h" />
     <ClInclude Include="HundeNutzer.h" />
@@ -172,6 +175,7 @@
     <ClInclude Include="RealtimeCurrConvService.h" />
     <ClInclude Include="Ressource.h" />
     <ClInclude Include="SmartPointer.h" />
+    <ClInclude Include="StandardOutputLoggerImpl.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="ToSquare.h" />
@@ -180,11 +184,14 @@
   <ItemGroup>
     <ClCompile Include="Account.cpp" />
     <ClCompile Include="AccountImpl.cpp" />
+    <ClCompile Include="ArabicToRomanNumeralsConverterTest.cpp" />
     <ClCompile Include="BinaryTreeNode.cpp" />
     <ClCompile Include="CurrConvServiceMock.cpp" />
     <ClCompile Include="Customer.cpp" />
     <ClCompile Include="CustomerImpl.cpp" />
+    <ClCompile Include="CustomerRepository.cpp" />
     <ClCompile Include="GCDwithTemplate.cpp" />
+    <ClCompile Include="ILoggingFacility.cpp" />
     <ClCompile Include="IncreasingNumberGenerator.cpp" />
     <ClCompile Include="Hund.cpp" />
     <ClCompile Include="HundeNutzer.cpp" />
@@ -199,6 +206,7 @@
     <ClCompile Include="RealtimeCurrConvService.cpp" />
     <ClCompile Include="Ressource.cpp" />
     <ClCompile Include="SmartPointer.cpp" />
+    <ClCompile Include="StandardOutputLoggerImpl.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
