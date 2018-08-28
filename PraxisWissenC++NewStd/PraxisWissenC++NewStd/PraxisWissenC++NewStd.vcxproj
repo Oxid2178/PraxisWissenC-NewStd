@@ -155,6 +155,8 @@
     <ClInclude Include="Customer.h" />
     <ClInclude Include="CustomerImpl.h" />
     <ClInclude Include="CustomerRepository.h" />
+    <ClInclude Include="CustomerStrategy.h" />
+    <ClInclude Include="Formatter.h" />
     <ClInclude Include="GCDwithTemplate.h" />
     <ClInclude Include="ILoggingFacility.h" />
     <ClInclude Include="IncreasingNumberGenerator.h" />
@@ -164,6 +166,7 @@
     <ClInclude Include="ICurrencyConverter.h" />
     <ClInclude Include="IHund.h" />
     <ClInclude Include="IOwner.h" />
+    <ClInclude Include="JsonFormatter.h" />
     <ClInclude Include="Kap3Templates.h" />
     <ClInclude Include="Kap4Bibliothek.h" />
     <ClInclude Include="Kapitel2.h" />
@@ -171,6 +174,7 @@
     <ClInclude Include="Lambdas.h" />
     <ClInclude Include="Lebewesen.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="PlainTextFormatter.h" />
     <ClInclude Include="RandomNumberGenerator.h" />
     <ClInclude Include="RealtimeCurrConvService.h" />
     <ClInclude Include="Ressource.h" />
@@ -180,6 +184,7 @@
     <ClInclude Include="targetver.h" />
     <ClInclude Include="ToSquare.h" />
     <ClInclude Include="UserOfConvService.h" />
+    <ClInclude Include="XmlFormatter.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Account.cpp" />
@@ -190,17 +195,21 @@
     <ClCompile Include="Customer.cpp" />
     <ClCompile Include="CustomerImpl.cpp" />
     <ClCompile Include="CustomerRepository.cpp" />
+    <ClCompile Include="CustomerStrategy.cpp" />
+    <ClCompile Include="Formatter.cpp" />
     <ClCompile Include="GCDwithTemplate.cpp" />
     <ClCompile Include="ILoggingFacility.cpp" />
     <ClCompile Include="IncreasingNumberGenerator.cpp" />
     <ClCompile Include="Hund.cpp" />
     <ClCompile Include="HundeNutzer.cpp" />
+    <ClCompile Include="JsonFormatter.cpp" />
     <ClCompile Include="Kap3Templates.cpp" />
     <ClCompile Include="Kap4Bibliothek.cpp" />
     <ClCompile Include="Kapitel2.cpp" />
     <ClCompile Include="Katze.cpp" />
     <ClCompile Include="Lambdas.cpp" />
     <ClCompile Include="Lebewesen.cpp" />
+    <ClCompile Include="PlainTextFormatter.cpp" />
     <ClCompile Include="PraxisWissenC++NewStd.cpp" />
     <ClCompile Include="RandomNumberGenerator.cpp" />
     <ClCompile Include="RealtimeCurrConvService.cpp" />
@@ -215,6 +224,7 @@
     </ClCompile>
     <ClCompile Include="ToSquare.cpp" />
     <ClCompile Include="UserOfConvService.cpp" />
+    <ClCompile Include="XmlFormatter.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

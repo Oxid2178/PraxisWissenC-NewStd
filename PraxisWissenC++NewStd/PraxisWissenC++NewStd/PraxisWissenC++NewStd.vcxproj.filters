@@ -124,11 +124,23 @@
     <Filter Include="Source Files\CleanC++17TDD\Test">
       <UniqueIdentifier>{1095f36b-22a8-4110-aaa7-645001a0e515}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\CleanC++17DesignPatternDependInject">
+    <Filter Include="Source Files\CleanC++17DesignPattern">
+      <UniqueIdentifier>{f169a111-59f8-4fad-afb0-b20f0e3653ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CleanC++17DesignPattern">
+      <UniqueIdentifier>{3b5093ca-f973-497a-95ad-2241e949c195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternDependInject">
       <UniqueIdentifier>{ae64a062-5dcd-4d43-ad4c-723a2e109b30}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\CleanC++17DesignPatternDependInject">
+    <Filter Include="Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternDependInject">
       <UniqueIdentifier>{f6292f67-8052-4ad5-99f5-fed1f0bad251}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternStrategy">
+      <UniqueIdentifier>{bd61d3a7-e64b-4ab3-b584-9a8b44dcfebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternStrategy">
+      <UniqueIdentifier>{5f1594f2-f7ab-4b1f-9f97-6189e44a12ae}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -223,13 +235,28 @@
       <Filter>Header Files\CleanC++17TDD\Test</Filter>
     </ClInclude>
     <ClInclude Include="ILoggingFacility.h">
-      <Filter>Header Files\CleanC++17DesignPatternDependInject</Filter>
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternDependInject</Filter>
     </ClInclude>
     <ClInclude Include="StandardOutputLoggerImpl.h">
-      <Filter>Header Files\CleanC++17DesignPatternDependInject</Filter>
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternDependInject</Filter>
     </ClInclude>
     <ClInclude Include="CustomerRepository.h">
-      <Filter>Header Files\CleanC++17DesignPatternDependInject</Filter>
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternDependInject</Filter>
+    </ClInclude>
+    <ClInclude Include="Formatter.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="PlainTextFormatter.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlFormatter.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonFormatter.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternStrategy</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomerStrategy.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternStrategy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -309,13 +336,28 @@
       <Filter>Source Files\CleanC++17TDD\Test</Filter>
     </ClCompile>
     <ClCompile Include="ILoggingFacility.cpp">
-      <Filter>Source Files\CleanC++17DesignPatternDependInject</Filter>
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternDependInject</Filter>
     </ClCompile>
     <ClCompile Include="StandardOutputLoggerImpl.cpp">
-      <Filter>Source Files\CleanC++17DesignPatternDependInject</Filter>
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternDependInject</Filter>
     </ClCompile>
     <ClCompile Include="CustomerRepository.cpp">
-      <Filter>Source Files\CleanC++17DesignPatternDependInject</Filter>
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternDependInject</Filter>
+    </ClCompile>
+    <ClCompile Include="Formatter.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="PlainTextFormatter.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlFormatter.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonFormatter.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomerStrategy.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternStrategy</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
