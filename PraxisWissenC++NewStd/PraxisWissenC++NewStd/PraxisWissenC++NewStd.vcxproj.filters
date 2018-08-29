@@ -142,6 +142,12 @@
     <Filter Include="Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternStrategy">
       <UniqueIdentifier>{5f1594f2-f7ab-4b1f-9f97-6189e44a12ae}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommand">
+      <UniqueIdentifier>{42609879-6fa6-4edd-9ba8-54636972bd03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommand">
+      <UniqueIdentifier>{49558d37-a3ca-4bc9-b716-12289ea820db}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lambdas.h">
@@ -258,6 +264,18 @@
     <ClInclude Include="CustomerStrategy.h">
       <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternStrategy</Filter>
     </ClInclude>
+    <ClInclude Include="ICommand.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="HelloWorldOutputCmdImpl.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lambdas.cpp">
@@ -358,6 +376,18 @@
     </ClCompile>
     <ClCompile Include="CustomerStrategy.cpp">
       <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternStrategy</Filter>
+    </ClCompile>
+    <ClCompile Include="ICommand.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="HelloWorldOutputCmdImpl.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

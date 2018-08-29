@@ -151,6 +151,9 @@
     <ClInclude Include="AccountImpl.h" />
     <ClInclude Include="ArabicToRomanNumeralsConverterTest.h" />
     <ClInclude Include="BinaryTreeNode.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="HelloWorldOutputCmdImpl.h" />
+    <ClInclude Include="ICommand.h" />
     <ClInclude Include="CurrConvServiceMock.h" />
     <ClInclude Include="Customer.h" />
     <ClInclude Include="CustomerImpl.h" />
@@ -178,6 +181,7 @@
     <ClInclude Include="RandomNumberGenerator.h" />
     <ClInclude Include="RealtimeCurrConvService.h" />
     <ClInclude Include="Ressource.h" />
+    <ClInclude Include="Server.h" />
     <ClInclude Include="SmartPointer.h" />
     <ClInclude Include="StandardOutputLoggerImpl.h" />
     <ClInclude Include="stdafx.h" />
@@ -191,6 +195,9 @@
     <ClCompile Include="AccountImpl.cpp" />
     <ClCompile Include="ArabicToRomanNumeralsConverterTest.cpp" />
     <ClCompile Include="BinaryTreeNode.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="HelloWorldOutputCmdImpl.cpp" />
+    <ClCompile Include="ICommand.cpp" />
     <ClCompile Include="CurrConvServiceMock.cpp" />
     <ClCompile Include="Customer.cpp" />
     <ClCompile Include="CustomerImpl.cpp" />
@@ -214,6 +221,7 @@
     <ClCompile Include="RandomNumberGenerator.cpp" />
     <ClCompile Include="RealtimeCurrConvService.cpp" />
     <ClCompile Include="Ressource.cpp" />
+    <ClCompile Include="Server.cpp" />
     <ClCompile Include="SmartPointer.cpp" />
     <ClCompile Include="StandardOutputLoggerImpl.cpp" />
     <ClCompile Include="stdafx.cpp">

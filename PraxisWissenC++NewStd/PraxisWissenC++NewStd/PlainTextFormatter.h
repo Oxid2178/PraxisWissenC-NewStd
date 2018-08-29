@@ -12,7 +12,7 @@ public:
 		formattedString << "[" << customerId << "]: "
 			<< forename << " " << surname << ", "
 			<< street << ", " << zipCode << " "
-			<< city << ".";
+			<< city << "." << "\n";
 		return formattedString.str();
 	}
 };
