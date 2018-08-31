@@ -274,6 +274,9 @@
       <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommand</Filter>
     </ClInclude>
     <ClInclude Include="Client.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="WaitCmdImpl.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -387,6 +390,9 @@
       <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommand</Filter>
     </ClCompile>
     <ClCompile Include="Client.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommand</Filter>
+    </ClCompile>
+    <ClCompile Include="WaitCmdImpl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

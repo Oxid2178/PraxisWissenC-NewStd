@@ -188,6 +188,7 @@
     <ClInclude Include="targetver.h" />
     <ClInclude Include="ToSquare.h" />
     <ClInclude Include="UserOfConvService.h" />
+    <ClInclude Include="WaitCmdImpl.h" />
     <ClInclude Include="XmlFormatter.h" />
   </ItemGroup>
   <ItemGroup>
@@ -232,6 +233,7 @@
     </ClCompile>
     <ClCompile Include="ToSquare.cpp" />
     <ClCompile Include="UserOfConvService.cpp" />
+    <ClCompile Include="WaitCmdImpl.cpp" />
     <ClCompile Include="XmlFormatter.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
