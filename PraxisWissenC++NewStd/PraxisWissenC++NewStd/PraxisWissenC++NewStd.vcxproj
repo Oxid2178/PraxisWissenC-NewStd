@@ -152,6 +152,10 @@
     <ClInclude Include="ArabicToRomanNumeralsConverterTest.h" />
     <ClInclude Include="BinaryTreeNode.h" />
     <ClInclude Include="Client.h" />
+    <ClInclude Include="DrawCircleCmdImpl.h" />
+    <ClInclude Include="DrawClient.h" />
+    <ClInclude Include="DrawCommandProcessor.h" />
+    <ClInclude Include="DrawingProcessor.h" />
     <ClInclude Include="HelloWorldOutputCmdImpl.h" />
     <ClInclude Include="ICommand.h" />
     <ClInclude Include="CurrConvServiceMock.h" />
@@ -161,6 +165,8 @@
     <ClInclude Include="CustomerStrategy.h" />
     <ClInclude Include="Formatter.h" />
     <ClInclude Include="GCDwithTemplate.h" />
+    <ClInclude Include="IDrawCommand.h" />
+    <ClInclude Include="IDrawRevertable.h" />
     <ClInclude Include="ILoggingFacility.h" />
     <ClInclude Include="IncreasingNumberGenerator.h" />
     <ClInclude Include="Hund.h" />
@@ -169,6 +175,7 @@
     <ClInclude Include="ICurrencyConverter.h" />
     <ClInclude Include="IHund.h" />
     <ClInclude Include="IOwner.h" />
+    <ClInclude Include="IUndoableCommand.h" />
     <ClInclude Include="JsonFormatter.h" />
     <ClInclude Include="Kap3Templates.h" />
     <ClInclude Include="Kap4Bibliothek.h" />
@@ -178,6 +185,7 @@
     <ClInclude Include="Lebewesen.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="PlainTextFormatter.h" />
+    <ClInclude Include="Point.h" />
     <ClInclude Include="RandomNumberGenerator.h" />
     <ClInclude Include="RealtimeCurrConvService.h" />
     <ClInclude Include="Ressource.h" />
@@ -187,6 +195,7 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="ToSquare.h" />
+    <ClInclude Include="UndoCommand.h" />
     <ClInclude Include="UserOfConvService.h" />
     <ClInclude Include="WaitCmdImpl.h" />
     <ClInclude Include="XmlFormatter.h" />
@@ -197,6 +206,10 @@
     <ClCompile Include="ArabicToRomanNumeralsConverterTest.cpp" />
     <ClCompile Include="BinaryTreeNode.cpp" />
     <ClCompile Include="Client.cpp" />
+    <ClCompile Include="DrawCircleCmdImpl.cpp" />
+    <ClCompile Include="DrawClient.cpp" />
+    <ClCompile Include="DrawCommandProcessor.cpp" />
+    <ClCompile Include="DrawingProcessor.cpp" />
     <ClCompile Include="HelloWorldOutputCmdImpl.cpp" />
     <ClCompile Include="ICommand.cpp" />
     <ClCompile Include="CurrConvServiceMock.cpp" />
@@ -206,10 +219,13 @@
     <ClCompile Include="CustomerStrategy.cpp" />
     <ClCompile Include="Formatter.cpp" />
     <ClCompile Include="GCDwithTemplate.cpp" />
+    <ClCompile Include="IDrawCommand.cpp" />
+    <ClCompile Include="IDrawRevertable.cpp" />
     <ClCompile Include="ILoggingFacility.cpp" />
     <ClCompile Include="IncreasingNumberGenerator.cpp" />
     <ClCompile Include="Hund.cpp" />
     <ClCompile Include="HundeNutzer.cpp" />
+    <ClCompile Include="IUndoableCommand.cpp" />
     <ClCompile Include="JsonFormatter.cpp" />
     <ClCompile Include="Kap3Templates.cpp" />
     <ClCompile Include="Kap4Bibliothek.cpp" />
@@ -218,6 +234,7 @@
     <ClCompile Include="Lambdas.cpp" />
     <ClCompile Include="Lebewesen.cpp" />
     <ClCompile Include="PlainTextFormatter.cpp" />
+    <ClCompile Include="Point.cpp" />
     <ClCompile Include="PraxisWissenC++NewStd.cpp" />
     <ClCompile Include="RandomNumberGenerator.cpp" />
     <ClCompile Include="RealtimeCurrConvService.cpp" />
@@ -232,9 +249,18 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="ToSquare.cpp" />
+    <ClCompile Include="UndoCommand.cpp" />
     <ClCompile Include="UserOfConvService.cpp" />
     <ClCompile Include="WaitCmdImpl.cpp" />
     <ClCompile Include="XmlFormatter.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="DesignPatternCommandProcessor2UML.bmp" />
+    <Image Include="DesignPatternCommandUML.bmp" />
+    <Image Include="DesignPatternDependencyInjection2UML.bmp" />
+    <Image Include="DesignPatternDependencyInjection3UML.bmp" />
+    <Image Include="DesignPatternDependencyInjectionUML.bmp" />
+    <Image Include="DesignPatternStrategy.bmp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

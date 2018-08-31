@@ -148,6 +148,12 @@
     <Filter Include="Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommand">
       <UniqueIdentifier>{49558d37-a3ca-4bc9-b716-12289ea820db}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor">
+      <UniqueIdentifier>{5e72267d-1c6c-4863-b6b9-69665f4a1870}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor">
+      <UniqueIdentifier>{a370066d-5061-41b0-bf31-79dff6bc0ac8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lambdas.h">
@@ -277,7 +283,34 @@
       <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommand</Filter>
     </ClInclude>
     <ClInclude Include="WaitCmdImpl.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommand</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrawCommand.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="IDrawRevertable.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="IUndoableCommand.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawCircleCmdImpl.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawingProcessor.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawCommandProcessor.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="UndoCommand.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawClient.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -393,7 +426,54 @@
       <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommand</Filter>
     </ClCompile>
     <ClCompile Include="WaitCmdImpl.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommand</Filter>
     </ClCompile>
+    <ClCompile Include="IDrawCommand.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="IDrawRevertable.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawCircleCmdImpl.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="IUndoableCommand.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawingProcessor.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawCommandProcessor.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="UndoCommand.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawClient.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="DesignPatternCommandUML.bmp">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommand</Filter>
+    </Image>
+    <Image Include="DesignPatternStrategy.bmp">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternStrategy</Filter>
+    </Image>
+    <Image Include="DesignPatternDependencyInjectionUML.bmp">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternDependInject</Filter>
+    </Image>
+    <Image Include="DesignPatternDependencyInjection2UML.bmp">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternDependInject</Filter>
+    </Image>
+    <Image Include="DesignPatternDependencyInjection3UML.bmp">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternDependInject</Filter>
+    </Image>
+    <Image Include="DesignPatternCommandProcessor2UML.bmp">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
+    </Image>
   </ItemGroup>
 </Project>
