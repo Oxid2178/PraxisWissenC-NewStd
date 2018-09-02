@@ -154,6 +154,18 @@
     <Filter Include="Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor">
       <UniqueIdentifier>{a370066d-5061-41b0-bf31-79dff6bc0ac8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternComposite">
+      <UniqueIdentifier>{96efd096-6429-41db-9446-9bac4fc857fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternComposite">
+      <UniqueIdentifier>{c4c89cfe-fc90-457b-a68f-2f7da688f464}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver">
+      <UniqueIdentifier>{e567abfd-5a8a-4183-824a-c5904b09d9ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver">
+      <UniqueIdentifier>{c473e23a-842e-4be5-a2b6-e1f0f01f615a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lambdas.h">
@@ -312,6 +324,24 @@
     <ClInclude Include="DrawClient.h">
       <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
     </ClInclude>
+    <ClInclude Include="CompositeCommand.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternComposite</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeClient.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternComposite</Filter>
+    </ClInclude>
+    <ClInclude Include="IObserver.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IsEqualTo.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lambdas.cpp">
@@ -455,6 +485,21 @@
     <ClCompile Include="DrawClient.cpp">
       <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
     </ClCompile>
+    <ClCompile Include="CompositeCommand.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternComposite</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositeClient.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternComposite</Filter>
+    </ClCompile>
+    <ClCompile Include="IObserver.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="IsEqualTo.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Image Include="DesignPatternCommandUML.bmp">
@@ -475,5 +520,10 @@
     <Image Include="DesignPatternCommandProcessor2UML.bmp">
       <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PraxisWissenC++NewStd.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

@@ -9,17 +9,16 @@ class DrawClient
 public:
     void run()
     {
-        
-        //auto drawCmdProcPtr{ std::make_shared<DrawCommandProcessor>() };
-        //auto undoCmdPtr{ std::make_shared<UndoCommand>(drawCmdProcPtr) };
-        //auto drawingProcPtr{ std::make_shared<DrawingProcessor>() };
-        //auto pointPtr{ std::make_shared<Point>() };
+		DrawCommandProcessor drawCmdProc{};
+		DrawingProcessor drawingProc{};
+		Point point{};
 
-        DrawCommandPtr drawCircleCmd = std::make_shared<DrawCircleCmdImpl>(drawingProcPtr,  pointPtr, 23.5);
+        DrawCommandPtr drawCircleCmd = std::make_shared<DrawCircleCmdImpl>(drawingProc,  point, 23.5);
         
-        
-        
-        drawCmdProcPtr->execute(drawCircleCmd);
+        drawCmdProc.execute(drawCircleCmd);
+
+		DrawCommandPtr undoCmd = std::make_shared<UndoCommand>(drawCmdProc);
+		drawCmdProc.execute(undoCmd);
     }
 };
 

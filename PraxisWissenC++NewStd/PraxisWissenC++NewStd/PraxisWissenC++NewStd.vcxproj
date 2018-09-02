@@ -152,6 +152,8 @@
     <ClInclude Include="ArabicToRomanNumeralsConverterTest.h" />
     <ClInclude Include="BinaryTreeNode.h" />
     <ClInclude Include="Client.h" />
+    <ClInclude Include="CompositeClient.h" />
+    <ClInclude Include="CompositeCommand.h" />
     <ClInclude Include="DrawCircleCmdImpl.h" />
     <ClInclude Include="DrawClient.h" />
     <ClInclude Include="DrawCommandProcessor.h" />
@@ -175,6 +177,7 @@
     <ClInclude Include="ICurrencyConverter.h" />
     <ClInclude Include="IHund.h" />
     <ClInclude Include="IOwner.h" />
+    <ClInclude Include="IsEqualTo.h" />
     <ClInclude Include="IUndoableCommand.h" />
     <ClInclude Include="JsonFormatter.h" />
     <ClInclude Include="Kap3Templates.h" />
@@ -183,16 +186,19 @@
     <ClInclude Include="Katze.h" />
     <ClInclude Include="Lambdas.h" />
     <ClInclude Include="Lebewesen.h" />
+    <ClInclude Include="IObserver.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="PlainTextFormatter.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="RandomNumberGenerator.h" />
     <ClInclude Include="RealtimeCurrConvService.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Ressource.h" />
     <ClInclude Include="Server.h" />
     <ClInclude Include="SmartPointer.h" />
     <ClInclude Include="StandardOutputLoggerImpl.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Subject.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="ToSquare.h" />
     <ClInclude Include="UndoCommand.h" />
@@ -206,6 +212,8 @@
     <ClCompile Include="ArabicToRomanNumeralsConverterTest.cpp" />
     <ClCompile Include="BinaryTreeNode.cpp" />
     <ClCompile Include="Client.cpp" />
+    <ClCompile Include="CompositeClient.cpp" />
+    <ClCompile Include="CompositeCommand.cpp" />
     <ClCompile Include="DrawCircleCmdImpl.cpp" />
     <ClCompile Include="DrawClient.cpp" />
     <ClCompile Include="DrawCommandProcessor.cpp" />
@@ -225,6 +233,7 @@
     <ClCompile Include="IncreasingNumberGenerator.cpp" />
     <ClCompile Include="Hund.cpp" />
     <ClCompile Include="HundeNutzer.cpp" />
+    <ClCompile Include="IsEqualTo.cpp" />
     <ClCompile Include="IUndoableCommand.cpp" />
     <ClCompile Include="JsonFormatter.cpp" />
     <ClCompile Include="Kap3Templates.cpp" />
@@ -233,6 +242,7 @@
     <ClCompile Include="Katze.cpp" />
     <ClCompile Include="Lambdas.cpp" />
     <ClCompile Include="Lebewesen.cpp" />
+    <ClCompile Include="IObserver.cpp" />
     <ClCompile Include="PlainTextFormatter.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="PraxisWissenC++NewStd.cpp" />
@@ -248,6 +258,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Subject.cpp" />
     <ClCompile Include="ToSquare.cpp" />
     <ClCompile Include="UndoCommand.cpp" />
     <ClCompile Include="UserOfConvService.cpp" />
@@ -261,6 +272,9 @@
     <Image Include="DesignPatternDependencyInjection3UML.bmp" />
     <Image Include="DesignPatternDependencyInjectionUML.bmp" />
     <Image Include="DesignPatternStrategy.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PraxisWissenC++NewStd.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
