@@ -150,6 +150,7 @@
     <ClInclude Include="Account.h" />
     <ClInclude Include="AccountImpl.h" />
     <ClInclude Include="ArabicToRomanNumeralsConverterTest.h" />
+    <ClInclude Include="BarChartView.h" />
     <ClInclude Include="BinaryTreeNode.h" />
     <ClInclude Include="Client.h" />
     <ClInclude Include="CompositeClient.h" />
@@ -188,6 +189,7 @@
     <ClInclude Include="Lebewesen.h" />
     <ClInclude Include="IObserver.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="PieChartView.h" />
     <ClInclude Include="PlainTextFormatter.h" />
     <ClInclude Include="Point.h" />
     <ClInclude Include="RandomNumberGenerator.h" />
@@ -196,9 +198,11 @@
     <ClInclude Include="Ressource.h" />
     <ClInclude Include="Server.h" />
     <ClInclude Include="SmartPointer.h" />
+    <ClInclude Include="SpreadsheetModel.h" />
     <ClInclude Include="StandardOutputLoggerImpl.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Subject.h" />
+    <ClInclude Include="TableView.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="ToSquare.h" />
     <ClInclude Include="UndoCommand.h" />
@@ -210,6 +214,7 @@
     <ClCompile Include="Account.cpp" />
     <ClCompile Include="AccountImpl.cpp" />
     <ClCompile Include="ArabicToRomanNumeralsConverterTest.cpp" />
+    <ClCompile Include="BarChartView.cpp" />
     <ClCompile Include="BinaryTreeNode.cpp" />
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="CompositeClient.cpp" />
@@ -243,6 +248,7 @@
     <ClCompile Include="Lambdas.cpp" />
     <ClCompile Include="Lebewesen.cpp" />
     <ClCompile Include="IObserver.cpp" />
+    <ClCompile Include="PieChartView.cpp" />
     <ClCompile Include="PlainTextFormatter.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="PraxisWissenC++NewStd.cpp" />
@@ -251,6 +257,7 @@
     <ClCompile Include="Ressource.cpp" />
     <ClCompile Include="Server.cpp" />
     <ClCompile Include="SmartPointer.cpp" />
+    <ClCompile Include="SpreadsheetModel.cpp" />
     <ClCompile Include="StandardOutputLoggerImpl.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -259,6 +266,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="Subject.cpp" />
+    <ClCompile Include="TableView.cpp" />
     <ClCompile Include="ToSquare.cpp" />
     <ClCompile Include="UndoCommand.cpp" />
     <ClCompile Include="UserOfConvService.cpp" />

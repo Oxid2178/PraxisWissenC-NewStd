@@ -333,13 +333,25 @@
     <ClInclude Include="IObserver.h">
       <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
     </ClInclude>
-    <ClInclude Include="resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="IsEqualTo.h">
       <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
     </ClInclude>
     <ClInclude Include="Subject.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="SpreadsheetModel.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="TableView.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="PieChartView.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="BarChartView.h">
       <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
     </ClInclude>
   </ItemGroup>
@@ -498,6 +510,18 @@
       <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
     </ClCompile>
     <ClCompile Include="Subject.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="SpreadsheetModel.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="TableView.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="PieChartView.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="BarChartView.cpp">
       <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
     </ClCompile>
   </ItemGroup>

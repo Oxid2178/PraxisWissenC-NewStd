@@ -2,7 +2,7 @@
 
 #include "IObserver.h"
 
-class IsEqualTo
+class IsEqualTo final
 {
 private:
 	IObserverPtr observer;
