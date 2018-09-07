@@ -159,6 +159,7 @@
     <ClInclude Include="DrawClient.h" />
     <ClInclude Include="DrawCommandProcessor.h" />
     <ClInclude Include="DrawingProcessor.h" />
+    <ClInclude Include="FileSystemLoggerImpl.h" />
     <ClInclude Include="HelloWorldOutputCmdImpl.h" />
     <ClInclude Include="ICommand.h" />
     <ClInclude Include="CurrConvServiceMock.h" />
@@ -188,6 +189,7 @@
     <ClInclude Include="Lambdas.h" />
     <ClInclude Include="Lebewesen.h" />
     <ClInclude Include="IObserver.h" />
+    <ClInclude Include="LoggerFactory.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="PieChartView.h" />
     <ClInclude Include="PlainTextFormatter.h" />
@@ -223,6 +225,7 @@
     <ClCompile Include="DrawClient.cpp" />
     <ClCompile Include="DrawCommandProcessor.cpp" />
     <ClCompile Include="DrawingProcessor.cpp" />
+    <ClCompile Include="FileSystemLoggerImpl.cpp" />
     <ClCompile Include="HelloWorldOutputCmdImpl.cpp" />
     <ClCompile Include="ICommand.cpp" />
     <ClCompile Include="CurrConvServiceMock.cpp" />
@@ -248,6 +251,7 @@
     <ClCompile Include="Lambdas.cpp" />
     <ClCompile Include="Lebewesen.cpp" />
     <ClCompile Include="IObserver.cpp" />
+    <ClCompile Include="LoggerFactory.cpp" />
     <ClCompile Include="PieChartView.cpp" />
     <ClCompile Include="PlainTextFormatter.cpp" />
     <ClCompile Include="Point.cpp" />

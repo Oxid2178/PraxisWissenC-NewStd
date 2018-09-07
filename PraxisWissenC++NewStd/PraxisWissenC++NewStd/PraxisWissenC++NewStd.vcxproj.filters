@@ -166,6 +166,12 @@
     <Filter Include="Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver">
       <UniqueIdentifier>{c473e23a-842e-4be5-a2b6-e1f0f01f615a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternFactory">
+      <UniqueIdentifier>{8c20e4af-9a75-4e19-9898-304c842de7c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternFactory">
+      <UniqueIdentifier>{47e8c31d-ec5a-434e-8d79-aec7f42692cb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lambdas.h">
@@ -354,6 +360,12 @@
     <ClInclude Include="BarChartView.h">
       <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
     </ClInclude>
+    <ClInclude Include="LoggerFactory.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="FileSystemLoggerImpl.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternDependInject</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lambdas.cpp">
@@ -523,6 +535,12 @@
     </ClCompile>
     <ClCompile Include="BarChartView.cpp">
       <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="LoggerFactory.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternFactory</Filter>
+    </ClCompile>
+    <ClCompile Include="FileSystemLoggerImpl.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternDependInject</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

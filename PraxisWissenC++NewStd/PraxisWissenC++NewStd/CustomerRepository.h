@@ -5,12 +5,12 @@
 class CustomerRepository
 {
 private:
-	Logger logger;
+	LoggerPtr logger;
 
 public:
 	CustomerRepository() = delete;
 
-	explicit CustomerRepository(const Logger& loggingService) : logger{loggingService} {}
+	explicit CustomerRepository(const LoggerPtr& loggingService) : logger{loggingService} {}
 
 	std::string findCustomerById(const int customId)
 	{
@@ -18,7 +18,7 @@ public:
 		return "The custom is Mario";
 	}
 
-	void setLoggingService(const Logger& loggingService)
+	void setLoggingService(const LoggerPtr& loggingService)
 	{
 		logger = loggingService;
 	}

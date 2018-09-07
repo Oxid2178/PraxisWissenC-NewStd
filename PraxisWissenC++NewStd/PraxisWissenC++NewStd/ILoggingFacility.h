@@ -9,4 +9,4 @@ public:
 	virtual void writeErrorEntry(std::string entry) = 0;
 };
 
-using Logger = std::shared_ptr<ILoggingFacility>;
+using LoggerPtr = std::shared_ptr<ILoggingFacility>;
