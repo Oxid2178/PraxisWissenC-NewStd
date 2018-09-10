@@ -172,6 +172,12 @@
     <Filter Include="Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternFactory">
       <UniqueIdentifier>{47e8c31d-ec5a-434e-8d79-aec7f42692cb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternFacade">
+      <UniqueIdentifier>{02be6b4f-3b45-4e88-942d-e96e8747794a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternFacade">
+      <UniqueIdentifier>{0816f16b-0f0e-4447-9009-b649eca7c332}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Lambdas.h">
@@ -366,6 +372,21 @@
     <ClInclude Include="FileSystemLoggerImpl.h">
       <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternDependInject</Filter>
     </ClInclude>
+    <ClInclude Include="IProcessService.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternFacade</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessDetail.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternFacade</Filter>
+    </ClInclude>
+    <ClInclude Include="IProcessDetail.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternFacade</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessServiceImpl.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternFacade</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessFactory.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternFacade</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lambdas.cpp">
@@ -541,6 +562,21 @@
     </ClCompile>
     <ClCompile Include="FileSystemLoggerImpl.cpp">
       <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternDependInject</Filter>
+    </ClCompile>
+    <ClCompile Include="IProcessDetail.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternFacade</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessServiceImpl.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternFacade</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessDetail.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternFacade</Filter>
+    </ClCompile>
+    <ClCompile Include="IProcessService.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternFacade</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessFactory.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternFacade</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

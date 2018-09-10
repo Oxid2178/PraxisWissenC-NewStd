@@ -155,6 +155,8 @@
     <ClInclude Include="Client.h" />
     <ClInclude Include="CompositeClient.h" />
     <ClInclude Include="CompositeCommand.h" />
+    <ClInclude Include="IProcessDetail.h" />
+    <ClInclude Include="ProcessDetail.h" />
     <ClInclude Include="DrawCircleCmdImpl.h" />
     <ClInclude Include="DrawClient.h" />
     <ClInclude Include="DrawCommandProcessor.h" />
@@ -171,6 +173,7 @@
     <ClInclude Include="GCDwithTemplate.h" />
     <ClInclude Include="IDrawCommand.h" />
     <ClInclude Include="IDrawRevertable.h" />
+    <ClInclude Include="IProcessService.h" />
     <ClInclude Include="ILoggingFacility.h" />
     <ClInclude Include="IncreasingNumberGenerator.h" />
     <ClInclude Include="Hund.h" />
@@ -194,6 +197,8 @@
     <ClInclude Include="PieChartView.h" />
     <ClInclude Include="PlainTextFormatter.h" />
     <ClInclude Include="Point.h" />
+    <ClInclude Include="ProcessFactory.h" />
+    <ClInclude Include="ProcessServiceImpl.h" />
     <ClInclude Include="RandomNumberGenerator.h" />
     <ClInclude Include="RealtimeCurrConvService.h" />
     <ClInclude Include="resource.h" />
@@ -221,6 +226,8 @@
     <ClCompile Include="Client.cpp" />
     <ClCompile Include="CompositeClient.cpp" />
     <ClCompile Include="CompositeCommand.cpp" />
+    <ClCompile Include="IProcessService.cpp" />
+    <ClCompile Include="ProcessDetail.cpp" />
     <ClCompile Include="DrawCircleCmdImpl.cpp" />
     <ClCompile Include="DrawClient.cpp" />
     <ClCompile Include="DrawCommandProcessor.cpp" />
@@ -241,6 +248,7 @@
     <ClCompile Include="IncreasingNumberGenerator.cpp" />
     <ClCompile Include="Hund.cpp" />
     <ClCompile Include="HundeNutzer.cpp" />
+    <ClCompile Include="IProcessDetail.cpp" />
     <ClCompile Include="IsEqualTo.cpp" />
     <ClCompile Include="IUndoableCommand.cpp" />
     <ClCompile Include="JsonFormatter.cpp" />
@@ -256,6 +264,8 @@
     <ClCompile Include="PlainTextFormatter.cpp" />
     <ClCompile Include="Point.cpp" />
     <ClCompile Include="PraxisWissenC++NewStd.cpp" />
+    <ClCompile Include="ProcessFactory.cpp" />
+    <ClCompile Include="ProcessServiceImpl.cpp" />
     <ClCompile Include="RandomNumberGenerator.cpp" />
     <ClCompile Include="RealtimeCurrConvService.cpp" />
     <ClCompile Include="Ressource.cpp" />
