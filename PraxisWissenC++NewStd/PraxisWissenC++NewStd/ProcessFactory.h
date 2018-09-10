@@ -7,8 +7,6 @@
 class ProcessFactory
 {
 public:
-    ProcessFactory();
-
     IProcessServicePtr createProcessServiceInstance()
     {
         IProcessDetailPtr processDetail = std::make_shared<ProcessDetail>();

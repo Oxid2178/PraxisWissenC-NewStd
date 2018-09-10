@@ -5,11 +5,9 @@
 class ProcessDetail : public IProcessDetail
 {
 public:
-    ProcessDetail();
-
     virtual void doDetailProcess() override
     {
-        std::cout << "Detail process performed!";
+        std::cout << "Detail process performed!\n";
     }
 };
 
