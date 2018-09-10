@@ -284,6 +284,7 @@
     <Image Include="DesignPatternDependencyInjection3UML.bmp" />
     <Image Include="DesignPatternDependencyInjectionUML.bmp" />
     <Image Include="DesignPatternStrategy.bmp" />
+    <Image Include="DesignPatternFactory.bmp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="PraxisWissenC++NewStd.rc" />

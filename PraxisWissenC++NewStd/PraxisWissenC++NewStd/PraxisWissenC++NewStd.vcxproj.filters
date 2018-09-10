@@ -562,6 +562,9 @@
     <Image Include="DesignPatternCommandProcessor2UML.bmp">
       <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternCommandProcessor</Filter>
     </Image>
+    <Image Include="DesignPatternFactory.bmp">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternFactory</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="PraxisWissenC++NewStd.rc">
