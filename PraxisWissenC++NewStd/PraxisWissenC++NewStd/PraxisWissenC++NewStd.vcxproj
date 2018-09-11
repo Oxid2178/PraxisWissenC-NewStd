@@ -156,6 +156,7 @@
     <ClInclude Include="CompositeClient.h" />
     <ClInclude Include="CompositeCommand.h" />
     <ClInclude Include="IProcessDetail.h" />
+    <ClInclude Include="NoSystemOutput.h" />
     <ClInclude Include="ProcessDetail.h" />
     <ClInclude Include="DrawCircleCmdImpl.h" />
     <ClInclude Include="DrawClient.h" />
@@ -227,6 +228,7 @@
     <ClCompile Include="CompositeClient.cpp" />
     <ClCompile Include="CompositeCommand.cpp" />
     <ClCompile Include="IProcessService.cpp" />
+    <ClCompile Include="NoSystemOutput.cpp" />
     <ClCompile Include="ProcessDetail.cpp" />
     <ClCompile Include="DrawCircleCmdImpl.cpp" />
     <ClCompile Include="DrawClient.cpp" />

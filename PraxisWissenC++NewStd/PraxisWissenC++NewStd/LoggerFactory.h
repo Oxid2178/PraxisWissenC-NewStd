@@ -3,6 +3,7 @@
 #include "ILoggingFacility.h"
 #include "StandardOutputLoggerImpl.h"
 #include "FileSystemLoggerImpl.h"
+#include "NoSystemOutput.h"
 
 #include <fstream>
 
@@ -28,13 +29,13 @@ public:
     {
         const string configFileContent = readConfigFile();
         OutputTarget outputTarget = evalConfig(configFileContent);
-        if (createLogger(outputTarget) != NULL)
+        if (createLogger(outputTarget)->isConfigParamValid())
         {
             return createLogger(outputTarget);
         }
         else
         {
-            throw ("Konfigurationsdatei enthaelt keinen gueltigen Konfigurationsparameter!\n");
+            throw ("Konfigurationsdatei nicht vorhanden oder enthaelt keinen gueltigen Konfigurationsparameter!\n");
         }
     }
 
@@ -73,7 +74,7 @@ private:
             case OutputTarget::STDOUT :
                 return make_shared<StandardOutputLoggerImpl>();
             default:
-                return NULL;
+                return make_shared<NoSystemOutput>();
                 
         }
     }

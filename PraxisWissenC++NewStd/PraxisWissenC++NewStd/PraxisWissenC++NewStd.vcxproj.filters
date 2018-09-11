@@ -387,6 +387,9 @@
     <ClInclude Include="ProcessFactory.h">
       <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternFacade</Filter>
     </ClInclude>
+    <ClInclude Include="NoSystemOutput.h">
+      <Filter>Header Files\CleanC++17DesignPattern\CleanC++17DesignPatternDependInject</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Lambdas.cpp">
@@ -577,6 +580,9 @@
     </ClCompile>
     <ClCompile Include="ProcessFactory.cpp">
       <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternFacade</Filter>
+    </ClCompile>
+    <ClCompile Include="NoSystemOutput.cpp">
+      <Filter>Source Files\CleanC++17DesignPattern\CleanC++17DesignPatternDependInject</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
